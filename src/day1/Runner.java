@@ -11,9 +11,8 @@ public class Runner {
 
         List<Integer> depths = inputReader.readLinesToIntegerList("sea-floor-depth.txt");
 
-        System.out.println(depths);
-        System.out.println(getNumIncreasedMeasurements(depths));
-        System.out.println(getNumIncreasedMeasurementsWindowed(depths));
+        System.out.println("Part One Solution: " + getNumIncreasedMeasurements(depths));
+        System.out.println("Part Two Solution: " + getNumIncreasedMeasurementsWindowed(depths));
     }
 
     private static int getNumIncreasedMeasurements(List<Integer> depths) {
